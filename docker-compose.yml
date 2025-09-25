@@ -1,11 +1,11 @@
 version: '3'
 services:
-  xss-vulnerable:
-    build: ./xss-vulnerable
+  vuln-lab:
+    build: ./vulnerable
     ports:
       - "8080:80"
 
-  xss-secure:
-    build: ./xss-secure
+  secure-lab:
+    build: ./secure
     ports:
       - "8081:80"
